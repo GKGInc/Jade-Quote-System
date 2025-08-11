@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JadeQuoteSystem.Module", "JadeQuoteSystem.Module\JadeQuoteSystem.Module.csproj", "{9B0054E9-7093-4265-9720-016EA3A3622A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JadeQuoteSystem.Win", "JadeQuoteSystem.Win\JadeQuoteSystem.Win.csproj", "{C5AFC008-112C-400C-9512-5EBC3DC4A71B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JadeQuoteSystem.Blazor.Server", "JadeQuoteSystem.Blazor.Server\JadeQuoteSystem.Blazor.Server.csproj", "{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JadeQuoteSystem.E2E.Tests", "JadeQuoteSystem.E2E.Tests\JadeQuoteSystem.E2E.Tests.csproj", "{95B7B025-02F0-4E8B-9804-DF12E6204773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0054E9-7093-4265-9720-016EA3A3622A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AFC008-112C-400C-9512-5EBC3DC4A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BE9ED4-348A-47B0-9C0D-65FF43BF20B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B7B025-02F0-4E8B-9804-DF12E6204773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
