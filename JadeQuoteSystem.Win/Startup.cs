@@ -20,7 +20,7 @@ public class ApplicationBuilder : IDesignTimeApplicationFactory {
         // Register 3rd-party IoC containers (like Autofac, Dryloc, etc.)
         // builder.UseServiceProviderFactory(new DryIocServiceProviderFactory());
         // builder.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-
+        // Just a comment
         builder.UseApplication<JadeQuoteSystemWindowsFormsApplication>();
         builder.Modules
             .AddCharts()
